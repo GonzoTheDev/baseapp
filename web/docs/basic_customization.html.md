@@ -15,7 +15,7 @@ The roadmap is pretty short:
 * edit page title
 
 Should be easy as always. Let’s start.
-
+ 
 ### 1. Clone Baseapp
 ```bash
 cd /home/app
