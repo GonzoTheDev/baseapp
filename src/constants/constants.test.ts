@@ -19,7 +19,7 @@ describe('Constants', () => {
     ];
 
     it('Rendering correct title prefix', () => {
-        expect(PG_TITLE_PREFIX).toBe('Cryptobase');
+        expect(PG_TITLE_PREFIX).toBe('CryptX');
     });
 
     it('Rendering correct correct routes if user is not logged in', () => {
