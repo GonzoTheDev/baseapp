@@ -56,6 +56,12 @@ export const DropdownComponent = (props: DropdownComponentProps) => {
     }), [selected, placeholder, className]);
 
     useEffect(() => {
+        if (clear !== false) {
+            setSelected(placeholder || convertToString(defaultPlaceholder));
+        }
+    }, [placeholder, defaultPlaceholder, clear]);
+
+    useEffect(() => {
         if (typeof props.selectedValue !== 'undefined') {
             setSelected(props.selectedValue);
         }
@@ -64,7 +70,7 @@ export const DropdownComponent = (props: DropdownComponentProps) => {
     const handleSelect = useCallback((elem: DropdownElem, index: number) => {
         onSelect && onSelect(index);
         setSelected(convertToString(elem));
-    }, [onSelect]);
+    }, [list, selected, onSelect]);
 
     const renderElem = useCallback((elem: DropdownElem, index: number) => {
         return  (
@@ -76,12 +82,6 @@ export const DropdownComponent = (props: DropdownComponentProps) => {
             </Dropdown.Item>
         );
     }, [handleSelect]);
-
-    useEffect(() => {
-        if (clear !== false) {
-            setSelected(placeholder || convertToString(defaultPlaceholder));
-        }
-    }, [placeholder, defaultPlaceholder, clear]);
 
     return (
         <div className={cx}>
