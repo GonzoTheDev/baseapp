@@ -7,7 +7,7 @@ export const DarkBlueTheme: ThemeColorInterface[] = [
     { key: '--rgb-subheader-background-color', value: '40, 51, 78' },
     { key: '--rgb-dropdown-background-color', value: '61, 68, 98' },
     { key: '--rgb-icons', value: '115, 127, 146' },
-    { key: '--rgb-primary-cta-color', value: '3, 252, 207' },
+    { key: '--rgb-primary-cta-color', value: '0, 185, 142' },
     { key: '--rgb-contrast-cta-color', value: '255, 255, 255' },
     { key: '--rgb-secondary-contrast-cta-color', value: '115, 127, 146' },
     { key: '--rgb-cta-layer-color', value: '255, 255, 255' },
