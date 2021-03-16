@@ -100,12 +100,12 @@ export const ru: LangType = {
     'page.body.landing.marketInfo.title.text2': 'Buy, sell and trade digital currency.',
     'page.body.landing.marketInfo.title.button': 'start trading',
 
-    'page.body.landing.platformInfo.item.first.value': '30M+',
-    'page.body.landing.platformInfo.item.first.title': 'Customers served',
-    'page.body.landing.platformInfo.item.second.value': '$3M+',
+    'page.body.landing.platformInfo.item.first.value': '10',
+    'page.body.landing.platformInfo.item.first.title': 'Trading Pairs',
+    'page.body.landing.platformInfo.item.second.value': '€30,000+',
     'page.body.landing.platformInfo.item.second.title': '30 days volume',
-    'page.body.landing.platformInfo.item.third.value': '101',
-    'page.body.landing.platformInfo.item.third.title': 'Countries supported',
+    'page.body.landing.platformInfo.item.third.value': '99',
+    'page.body.landing.platformInfo.item.third.title': 'Problems and they all involve toolchains..',
 
     'page.body.landing.register.item.title': 'No matter your experience level',
     'page.body.landing.register.item.text': 'CryptX offers an intuitive interface with real time orderbooks, charting tools, trade history, and a simple order process so you can trade from day one.',
