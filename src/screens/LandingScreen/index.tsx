@@ -261,31 +261,29 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <Link to="/trading/">{this.translate('page.body.landing.footer.exchange')}</Link>
                             <Link to="/wallets">{this.translate('page.body.landing.footer.wallets')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.fees')}</Link>
+                            <Link to="/fees">{this.translate('page.body.landing.footer.fees')}</Link>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/">{this.translate('page.body.landing.footer.faq')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.support')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.privacy')}</Link>
+                            <Link to="/faq">{this.translate('page.body.landing.footer.faq')}</Link>
+                            <Link to="/support">{this.translate('page.body.landing.footer.support')}</Link>
+                            <Link to="/privacy">{this.translate('page.body.landing.footer.privacy')}</Link>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/">{this.translate('page.body.landing.footer.about')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.community')}</Link>
-                            <Link to="/">{this.translate('page.body.landing.footer.info')}</Link>
+                            <Link to="/about">{this.translate('page.body.landing.footer.about')}</Link>
+                            <Link to="/ANN">{this.translate('page.body.landing.footer.community')}</Link>
+                            <Link to="/info">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
                         <div className="pg-landing-screen__footer__wrap__social__row">
-                            <img src={TelegramIcon} alt="Telegram" />
-                            <img src={LinkedInIcon} alt="LinkedIn" />
-                            <img src={TwitterIcon} alt="Twitter" />
-                            <img src={YouTubeIcon} alt="YouTube" />
+                            <a href="https://t.me/cryptxchange"></a><img src={TelegramIcon} alt="Telegram" /></a>
+                            <a href="https://www.linkedin.com/company/cryptxchange/"></a><img src={LinkedInIcon} alt="LinkedIn" /></a>
+                            <a href="https://twitter.com/CryptXchange"></a><img src={TwitterIcon} alt="Twitter" /></a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__social__row">
-                            <img src={RedditIcon} alt="Reddit" />
-                            <img src={FacebookIcon} alt="Facebook" />
-                            <img src={MediumIcon} alt="MediumIcon" />
-                            <img src={CoinMarketIcon} alt="CoinMarket" />
+                            <a href="https://www.facebook.com/CryptX-Exchange-108765481297064"><img src={FacebookIcon} alt="Facebook" /></a>
+                            <a href="https://medium.com/@therealcryptocoin"><img src={MediumIcon} alt="MediumIcon" /></a>
+                            <a href=""><img src={CoinMarketIcon} alt="CoinMarket" /></a>
                         </div>
                     </div>
                 </div>
