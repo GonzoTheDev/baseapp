@@ -271,7 +271,7 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <Link to="/about">{this.translate('page.body.landing.footer.about')}</Link>
                             <Link to="/ANN">{this.translate('page.body.landing.footer.community')}</Link>
-                            <Link to="/info">{this.translate('page.body.landing.footer.info')}</Link>
+                            <Link to="/listing">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
