@@ -276,9 +276,9 @@ class Landing extends React.Component<Props> {
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
                         <div className="pg-landing-screen__footer__wrap__social__row">
-                            <a href="https://t.me/cryptxchange"></a><img src={TelegramIcon} alt="Telegram" /></a>
-                            <a href="https://www.linkedin.com/company/cryptxchange/"></a><img src={LinkedInIcon} alt="LinkedIn" /></a>
-                            <a href="https://twitter.com/CryptXchange"></a><img src={TwitterIcon} alt="Twitter" /></a>
+                            <a href="https://t.me/cryptxchange"><img src={TelegramIcon} alt="Telegram" /></a>
+                            <a href="https://www.linkedin.com/company/cryptxchange/"><img src={LinkedInIcon} alt="LinkedIn" /></a>
+                            <a href="https://twitter.com/CryptXchange"><img src={TwitterIcon} alt="Twitter" /></a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__social__row">
                             <a href="https://www.facebook.com/CryptX-Exchange-108765481297064"><img src={FacebookIcon} alt="Facebook" /></a>
