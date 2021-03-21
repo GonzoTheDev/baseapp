@@ -1,5 +1,5 @@
 {
-  "baseUrl":            "http://www.app.local",
+  "baseUrl":            "https://www.cryptx.trade",
   "fixturesFolder":     "spec/fixtures",
   "integrationFolder":  "spec/integration",
   "pluginsFile":        "spec/plugins/index.js",
