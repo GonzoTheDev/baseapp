@@ -261,17 +261,17 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <Link to="/trading/">{this.translate('page.body.landing.footer.exchange')}</Link>
                             <Link to="/wallets">{this.translate('page.body.landing.footer.wallets')}</Link>
-                            <Link to="https://support.cryptx.trade/knowledgebase.php?article=3">{this.translate('page.body.landing.footer.fees')}</Link>
+                            <a href="https://support.cryptx.trade/knowledgebase.php?article=3">{this.translate('page.body.landing.footer.fees')}</a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/https://support.cryptx.trade/knowledgebase.php?category=11">{this.translate('page.body.landing.footer.faq')}</Link>
-                            <Link to="https://support.cryptx.trade">{this.translate('page.body.landing.footer.support')}</Link>
-                            <Link to="https://support.cryptx.trade/knowledgebase.php?article=4">{this.translate('page.body.landing.footer.privacy')}</Link>
+                            <a href="https://support.cryptx.trade/knowledgebase.php?category=11">{this.translate('page.body.landing.footer.faq')}</a>
+                            <a href="https://support.cryptx.trade">{this.translate('page.body.landing.footer.support')}</a>
+                            <a href="https://support.cryptx.trade/knowledgebase.php?article=4">{this.translate('page.body.landing.footer.privacy')}</a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="https://support.cryptx.trade/knowledgebase.php?category=10">{this.translate('page.body.landing.footer.about')}</Link>
+                            <a href="https://support.cryptx.trade/knowledgebase.php?category=10">{this.translate('page.body.landing.footer.about')}</a>
                             <Link to="/ANN">{this.translate('page.body.landing.footer.community')}</Link>
-                            <Link to="https://forms.gle/SECJfYdqEE3cb2YL6">{this.translate('page.body.landing.footer.info')}</Link>
+                            <a href="https://forms.gle/SECJfYdqEE3cb2YL6">{this.translate('page.body.landing.footer.info')}</a>
                         </div>
                     </div>
                     <div className="pg-landing-screen__footer__wrap__social">
