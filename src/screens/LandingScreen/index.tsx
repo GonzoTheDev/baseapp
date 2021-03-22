@@ -261,15 +261,15 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <Link to="/trading/">{this.translate('page.body.landing.footer.exchange')}</Link>
                             <Link to="/wallets">{this.translate('page.body.landing.footer.wallets')}</Link>
-                            <Link to="/fees">{this.translate('page.body.landing.footer.fees')}</Link>
+                            <Link to="https://support.cryptx.trade/knowledgebase.php?article=3">{this.translate('page.body.landing.footer.fees')}</Link>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/faq">{this.translate('page.body.landing.footer.faq')}</Link>
-                            <Link to="/support">{this.translate('page.body.landing.footer.support')}</Link>
-                            <Link to="/privacy">{this.translate('page.body.landing.footer.privacy')}</Link>
+                            <Link to="/https://support.cryptx.trade/knowledgebase.php?category=11">{this.translate('page.body.landing.footer.faq')}</Link>
+                            <Link to="https://support.cryptx.trade">{this.translate('page.body.landing.footer.support')}</Link>
+                            <Link to="https://support.cryptx.trade/knowledgebase.php?article=4">{this.translate('page.body.landing.footer.privacy')}</Link>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
-                            <Link to="/about">{this.translate('page.body.landing.footer.about')}</Link>
+                            <Link to="https://support.cryptx.trade/knowledgebase.php?category=10">{this.translate('page.body.landing.footer.about')}</Link>
                             <Link to="/ANN">{this.translate('page.body.landing.footer.community')}</Link>
                             <Link to="https://forms.gle/SECJfYdqEE3cb2YL6">{this.translate('page.body.landing.footer.info')}</Link>
                         </div>
