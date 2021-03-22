@@ -265,7 +265,7 @@ class Landing extends React.Component<Props> {
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
                             <a href="https://support.cryptx.trade/knowledgebase.php?category=11">{this.translate('page.body.landing.footer.faq')}</a>
-                            <a href="https://support.cryptx.trade">{this.translate('page.body.landing.footer.support')}</a>
+                            <a href="https://support.cryptx.trade/knowledgebase.php">{this.translate('page.body.landing.footer.support')}</a>
                             <a href="https://support.cryptx.trade/knowledgebase.php?article=4">{this.translate('page.body.landing.footer.privacy')}</a>
                         </div>
                         <div className="pg-landing-screen__footer__wrap__navigation__col">
