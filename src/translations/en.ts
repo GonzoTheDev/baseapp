@@ -144,7 +144,7 @@ export const en = {
     'page.body.landing.footer.about': 'About us',
     'page.body.landing.footer.community': 'Community',
     'page.body.landing.footer.info': 'Coin Listing',
-    'page.body.landing.footer.rights': 'CryptX © All rights reserved.',
+    'page.body.landing.footer.rights': 'CryptX © All rights reserved. <script>document.write(new Date().getFullYear())</script>',
 
     'pagy.body.footer.powered_by': 'Powered by',
 
